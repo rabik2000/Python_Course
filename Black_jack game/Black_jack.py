@@ -7,7 +7,7 @@ game_in = True
 deck = [2, 3, 4, 5, 6, 7, 8, 9, 10, 'K', 'Q', 'J', 'A']
 suits = ['♥️', '♦️', '♣️', '♠️'] 
 full_deck = [(card, suit) for card in deck for suit in suits]
-
+random.shuffle(full_deck)
 
 player_hand = []
 dealer_hand = []
